@@ -1,0 +1,43 @@
+.campaigns .campaign-item {
+  padding: 4.375rem 2.1875rem;
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  color: #fff;
+}
+
+.campaigns .campaign-title {
+  font-size: 1.625rem;
+  font-weight: 600;
+  line-height: 1.875rem;
+}
+
+.campaigns .campaign-desc {
+  margin: 2.5rem 0;
+  font-size: 0.875rem;
+}
+
+.campaigns-wrapper:nth-child(1) .campaign-item:nth-child(1) {
+  background-image: url(../../img/campaigns/banner1.png);
+}
+
+.campaigns-wrapper:nth-child(1) .campaign-item:nth-child(2) {
+  background-image: url(../../img/campaigns/banner2.png);
+}
+
+.campaigns-wrapper:nth-child(2) .campaign-item:nth-child(1) {
+  background-image: url(../../img/campaigns/banner3.png);
+  flex: 5;
+}
+
+.campaigns-wrapper:nth-child(2) .campaign-item:nth-child(2) {
+  background-image: url(../../img/campaigns/banner4.png);
+  flex: 3;
+}
+
+@media (max-width: 48rem) {
+  .campaigns .campaign-item {
+    width: 100%;
+    flex: unset !important;
+  }
+}

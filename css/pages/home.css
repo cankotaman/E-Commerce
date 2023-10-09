@@ -1,0 +1,137 @@
+.section-title {
+  text-align: center;
+  margin-bottom: 2.1875rem;
+}
+
+.section-title h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 0.8;
+  margin-bottom: 0.25rem;
+}
+
+/*! categories start */
+
+.categories {
+  margin: 2.5rem 0;
+}
+
+.categories .category-list {
+  display: flex;
+  gap: 1.875rem;
+  margin-top: 1.875rem;
+  flex-wrap: wrap;
+}
+
+/*! categories end */
+
+/*! products start */
+
+.products {
+  margin-bottom: 2.5rem;
+}
+
+/*.products .product-list {
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap; 
+}*/
+/*! products end */
+
+/*! campaigns start */
+
+.campaigns .campaigns-wrapper {
+  display: flex;
+  gap: 1.875rem;
+  margin: 1.875rem 0;
+  flex-wrap: wrap;
+}
+
+/*! campaigns end */
+
+/*! blog start */
+
+.blogs {
+  margin-bottom: 1.875rem;
+}
+
+.blogs .blog-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.875rem;
+}
+
+/*! blog end */
+
+/*! brands start */
+
+.brands {
+  margin: 2.5rem 0;
+}
+
+.brand-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: 0.0625rem solid #dee0ea;
+  padding: 1.875rem 0.3125rem;
+}
+
+.brand-list .brand-item {
+  opacity: 0.4;
+  transition: 0.2s ease opacity;
+}
+
+.brand-list .brand-item:hover {
+  opacity: 1;
+}
+
+/*! brands end */
+
+/*! policy start  */
+
+.policy {
+  border: 0.0625rem solid #dee0ea;
+  margin-top: 2.5rem;
+}
+
+.policy .policy-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1.5625rem 0;
+}
+
+.policy .policy-list .policy-item {
+  display: flex;
+  align-items: center;
+  column-gap: 0.625rem;
+}
+
+.policy .policy-item i {
+  font-size: 3.125rem;
+  display: flex;
+}
+
+.policy .policy-item .policy-texts {
+  display: flex;
+  flex-direction: column;
+}
+
+.policy .policy-item .policy-texts strong {
+  font-weight: 600;
+}
+
+.policy .policy-item .policy-texts span {
+  font-size: 0.75rem;
+}
+
+/*! policy end  */
+
+/*? responsive */
+
+@media (max-width: 48rem) {
+  .blogs .blog-list {
+    grid-template-columns: 1fr;
+  }
+}

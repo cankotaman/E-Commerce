@@ -1,0 +1,47 @@
+.single-tabs {
+  margin-bottom: 1.875rem;
+}
+
+.single-tabs h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0.9375rem 0;
+}
+
+.single-tabs .tab-list {
+  display: flex;
+  align-items: center;
+  column-gap: 1.25rem;
+  border-bottom: 0.0625rem solid #dee0ea;
+  padding-bottom: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.single-tabs .tab-list a.active {
+  font-weight: 500;
+}
+
+.single-tabs .tab-panel-descriptions {
+  font-size: 0.875rem;
+}
+
+.single-tabs .content {
+  display: none;
+}
+
+.single-tabs .content.active {
+  display: block;
+}
+
+.single-tabs .tab-panel-information table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.single-tabs .tab-panel-information table th,
+.single-tabs .tab-panel-information table td {
+  border: 0.0625rem solid #dee0ea;
+  padding: 0.625rem 0.375rem;
+  font-size: 0.875rem;
+  text-align: start;
+}

@@ -1,0 +1,125 @@
+/*! comment item start  */
+
+.tab-panel-reviews .comment-star {
+  display: flex;
+}
+
+.tab-panel-reviews .comment-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.875rem;
+}
+
+.tab-panel-reviews .comment-item {
+  display: flex;
+  align-items: center;
+  column-gap: 0.9375rem;
+}
+
+.tab-panel-reviews .comment-avatar img {
+  border-radius: 50%;
+  display: flex;
+}
+
+.tab-panel-reviews .comment-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.375rem;
+}
+
+.tab-panel-reviews .comment-star i {
+  color: gold;
+  font-size: 0.75rem;
+}
+
+.tab-panel-reviews .comment-meta {
+  font-size: 0.75rem;
+}
+
+.tab-panel-reviews .comment-description p {
+  font-size: 0.875rem;
+}
+/*! comment item end  */
+
+/*! comment form start  */
+
+.tab-panel-reviews span.required {
+  color: #e51414;
+}
+
+.tab-panel-reviews .review-form-wrapper h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 1.25rem 0;
+  border-bottom: 0.0625rem solid #dee0ea;
+  padding-bottom: 1rem;
+}
+
+.tab-panel-reviews .comment-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.75rem;
+}
+
+.tab-panel-reviews .comment-notes {
+  font-size: 0.875rem;
+}
+
+.tab-panel-reviews .comment-form-rating {
+  font-size: 0.875rem;
+}
+
+.tab-panel-reviews .comment-form-rating .stars {
+  display: flex;
+}
+
+.tab-panel-reviews .comment-form-rating .stars a {
+  display: flex;
+  padding: 0.25rem 0.625rem;
+  border-right: 0.0625rem solid #dee0ea;
+  margin-top: 0.3125rem;
+}
+
+.tab-panel-reviews .comment-form-rating .stars a:hover i {
+  color: gold;
+}
+
+.tab-panel-reviews .comment-form-rating .stars a:first-child {
+  padding-left: 0;
+}
+
+.tab-panel-reviews .comment-form-rating .stars a:last-child {
+  border-right: unset;
+}
+
+.tab-panel-reviews .comment-form-rating .stars i {
+  font-size: 0.625rem;
+  color: #dee0ea;
+  transition: 0.2s ease color;
+}
+
+.comment-form .form-comment {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.875rem;
+  row-gap: 0.25rem;
+}
+
+.comment-form .comment-form-author {
+  margin: 0.625rem 0;
+}
+
+.comment-form .comment-form-cookies {
+  display: flex;
+  align-items: center;
+  column-gap: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.comment-form input.submit {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*! comment form end  */
